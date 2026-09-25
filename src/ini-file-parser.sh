@@ -8,7 +8,7 @@
 # named section_key.                                                               #
 # -------------------------------------------------------------------------------- #
 
-INI_FILE_PARSER_VERSION="0.1.1"
+INI_FILE_PARSER_VERSION="0.1.2-rc1"
 
 get_version()
 {
