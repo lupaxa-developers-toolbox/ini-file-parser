@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">ini-file-parser</h1>
+<h1 align="center">Ini File Parser</h1>
 
 Sourceable Bash helper that reads INI-style config files. Bash has no built-in INI support; this script loads a file into per-section key/value arrays and optional `section_key` variables.
 
@@ -28,7 +28,7 @@ A full walkthrough is in [demos/parse-example.sh](demos/parse-example.sh). Sampl
 | [simple example](demos/simple-example.conf)     | Sections and `key=value` pairs.                          |
 | [complete example](demos/complete-example.conf) | Processing rules, warnings, and error conditions.        |
 
-## Processing rules
+## Processing Rules
 
 1. Empty lines are ignored.
 2. Lines starting with `#` or `;` (after trim) are ignored.
@@ -53,7 +53,7 @@ A full walkthrough is in [demos/parse-example.sh](demos/parse-example.sh). Sampl
 | `global_reset`              | Drop all loaded sections, arrays, and scalars.               |
 | `get_version`               | Print the library version string.                            |
 
-## Global overrides
+## Global Overrides
 
 Set these **before** `process_ini_file`. Values must be `true` or `false`.
 
